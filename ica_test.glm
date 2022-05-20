@@ -1,0 +1,11 @@
+module powerflow
+{
+	solver_method NR;
+	violation_record ${modelname/.glm/.csv};
+	voltage_violation_threshold 0.05;
+	voltage_fluctuation_threshold 0.03;
+}
+
+#for LOAD in ${FIND class=load}
+modify ${LOAD}.DER_value "10 kW";
+#done

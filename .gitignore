@@ -1,0 +1,4 @@
+__pycache__/
+R*.csv
+R*.json
+ica_test.csv
