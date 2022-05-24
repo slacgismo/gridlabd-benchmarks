@@ -1,6 +1,5 @@
 __pycache__/
 R*.csv
 R*.json
-ica_test.csv
 .ipynb_checkpoints/
 .DS_Store
